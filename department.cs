@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment
 {
-     class department
+     class Department
    
     {
         private string deptName;
@@ -26,29 +26,30 @@ namespace Assignment
             get { return deptid; }
             set { acid = value; }
         }
-        public string course
+        public string deptcourse
         {
-            get { return coursename; }
-            set { course = name; }
+            get { return deptcourse; }
+            set { deptcourse = name; }
         }
 
-        public coursename()
+        public deptcourse()
         {
-            coursecode = 232345456;
+            deptcourse = 232345456;
         }
 
         public double course()
         {
-            double New coursecode;
+            double New deptcourse;
             string course;
             Console.WriteLine("please enter coursename : ");
             deposit = double.Parse(Console.ReadLine());
-            Newcourse = course + coursecode;
+            Newcourse = course + deptcourse;
             return New course;
         }
         public string department()
         {
-           course=new course()
+            course = new course()
+                }
 
         public Account1(string deptname, string deptid, string course)
         {
